@@ -1,0 +1,12 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index a664bb1..292ec41 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -326,6 +326,7 @@ if (BUILD_gflags_LIB)
+   else ()
+     set (HAVE_PTHREAD 0)
+   endif ()
++  set (HAVE_PTHREAD 1)
+   if (UNIX AND NOT HAVE_PTHREAD)
+     if (CMAKE_HAVE_PTHREAD_H)
+       set (what "library")
