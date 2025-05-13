@@ -2,7 +2,7 @@
 
 # gflags
 
-The gflags package contains a C++ library that implements commandline flags processing. It includes built-in support for standard types such as string and the ability to define flags in the source file in which they are used. Online documentation available at: gflags.github.io/gflags/
+The gflags package contains a C++ library that implements commandline flags processing. It includes built-in support for standard types such as string and the ability to define flags in the source file in which they are used. Online documentation available at: [gflags.github.io/gflags/](https://gflags.github.io/gflags/)
 
 # Installation and Usage
 
